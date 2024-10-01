@@ -28,22 +28,22 @@ $ docker compose up --build -d
 
 ```
 [
-		{
-				"_id": "66fac3be62385a555d46f004",
-				"name": "Jane Doe",
-				"salary": 2500,
-				"history": [
-						{
-							  "_id": "66fad4d796cdb48b2f831c9b",
-                "event": "hired",
-								"job": 66fac743549062f640df7f49,
-                "date": "2024-09-30T16:41:59.925Z"
-            },
-				],
-				"owner": "66fac731549062f640df7f47",
-				"job": "66fac743549062f640df7f49",
-				"__v": 0
-  	}
+	{
+		"_id": "66fac3be62385a555d46f004",
+		"name": "Jane Doe",
+		"salary": 2500,
+		"history": [
+			{
+				"_id": "66fad4d796cdb48b2f831c9b",
+				"event": "hired",
+				"job": 66fac743549062f640df7f49,
+				"date": "2024-09-30T16:41:59.925Z"
+			},
+		],
+		"owner": "66fac731549062f640df7f47",
+		"job": "66fac743549062f640df7f49",
+		"__v": 0
+	}
 ]
 ```
 
@@ -91,14 +91,14 @@ end: 2024-10-30T15:44:03.109Z
 
 ```
 {
-		"_id": "66fac743549062f640df7f49",
-		"name": "Developer",
-		"status": "archive",
-		"salary": 2500,
-		"workers": ['66fac3be62385a555d46f004'],
-		"owner": "66fac731549062f640df7f47",
-		"creationDate": "2024-09-30T15:44:03.108Z",
-		"__v": 0
+	"_id": "66fac743549062f640df7f49",
+	"name": "Developer",
+	"status": "archive",
+	"salary": 2500,
+	"workers": ['66fac3be62385a555d46f004'],
+	"owner": "66fac731549062f640df7f47",
+	"creationDate": "2024-09-30T15:44:03.108Z",
+	"__v": 0
 }
 ```
 
@@ -114,16 +114,16 @@ end: 2024-10-30T15:44:03.109Z
 
 ```
 [
-		{
-				"_id": "66fac743549062f640df7f49",
-				"name": "Developer",
-				"status": "active",
-				"salary": 2500,
-				"workers": ['66fac3be62385a555d46f004'],
-				"owner": "66fac731549062f640df7f47",
-				"creationDate": "2024-09-30T15:44:03.108Z",
-				"__v": 0
-		}
+	{
+		"_id": "66fac743549062f640df7f49",
+		"name": "Developer",
+		"status": "active",
+		"salary": 2500,
+		"workers": ['66fac3be62385a555d46f004'],
+		"owner": "66fac731549062f640df7f47",
+		"creationDate": "2024-09-30T15:44:03.108Z",
+		"__v": 0
+	}
 ]
 ```
 
@@ -146,19 +146,19 @@ event: hired
 
 ```
 {
-		"_id": "66fac3be62385a555d46f004",
-		"name": "Jane Doe",
-		"salary": 2500,
-		"history": [
-				{
-						"_id": "66fad4d796cdb48b2f831c9b",
-						"event": "hired",
-						"job": 66fac743549062f640df7f49,
-						"date": "2024-09-30T16:41:59.925Z"
-				},
-		],
-		"owner": "66fac731549062f640df7f47",
-		"job": "66fac743549062f640df7f49",
-		"__v": 0
+	"_id": "66fac3be62385a555d46f004",
+	"name": "Jane Doe",
+	"salary": 2500,
+	"history": [
+		{
+			"_id": "66fad4d796cdb48b2f831c9b",
+			"event": "hired",
+			"job": 66fac743549062f640df7f49,
+			"date": "2024-09-30T16:41:59.925Z"
+		},
+	],
+	"owner": "66fac731549062f640df7f47",
+	"job": "66fac743549062f640df7f49",
+	"__v": 0
 }
 ```
